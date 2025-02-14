@@ -1,1 +1,140 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Inter';
+}
+
+body {
+    /* width: 100vw; */
+    height: 100vh;
+    background-color: #f6f6fb;
+    display: flex;
+    justify-content: center;
+}
+
+/*---------- navbar ----------*/
+
+.nav {
+    width: 144rem;
+    height: 12.8rem;
+    padding: 2.4rem;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.navbar {
+    width: 139.2rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 9.9rem;
+    padding: 1.2rem 8rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2.4rem;
+}
+
+/*---------- hero section ----------*/
+
+.hero {
+    width: 144rem;
+    height: 96.8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 12rem 12rem 14rem 12rem;
+}
+
+.hero-upper {
+    width: 120rem;
+    height: 31.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.hero-upper-intro {
+    width: 23.6rem;
+    height: 4rem;
+    border-radius: 99.9rem;
+    padding: 0.8rem 2rem;
+    background-color: #563AFF1A;
+    text-align: center;
+    color: #5E44FF;
+    font-size: 1.6rem;
+}
+
+.hero-upper-slogan {
+    width: 120rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.hero-upper-slogan > h1 {
+    font-size: 8rem;
+    font-weight: 800;
+    text-align: center;
+    color: #1A1A2C;
+}
+
+.hero-upper-slogan > h1 > span {
+    color: #5E44FF;
+}
+
+.hero-upper-slogan > p {
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    color: #1A1A2C;
+}
+
+.hero-upper-btn {
+    width: 18.7rem;
+    height: 5.6rem;
+    border-radius: 1.6rem;
+    background-color: #1A1A2C;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-family: 'Inter';
+}
+
+.hero-upper-btn:hover {
+    cursor: pointer;
+}
+
+/*---------- tag selector ----------*/
+
+a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #1A1A2C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5E44FF;
+    text-decoration: underline;
+}
